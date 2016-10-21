@@ -1,0 +1,19 @@
+#header .logo {
+	background-image: url('../img/MarvelLogo.svg');
+}
+
+#header .logo-icon {
+	/* display logo so appname can be shown next to it */
+	background-image: url(../img/MarvelLogo.svg);
+	width: 75px;
+}
+
+#header .header-appname-container {
+	left: 80px;
+}
+
+#body-user #header,
+#body-settings #header,
+#body-public #header {
+	background-color: #ff0000;
+}
